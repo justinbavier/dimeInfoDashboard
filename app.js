@@ -12,7 +12,7 @@ const config = {
         }
     ],
     users: [{
-        user: "steve-admin",
+        user: "admin",
         pass: "password"
     }],
     allowInsecureHttp: true
