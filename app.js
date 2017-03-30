@@ -7,12 +7,12 @@ const config = {
             "serverURL": process.env.serverURL || 'http://localhost:5000/parse',
             "appId": process.env.APP_ID,
             "masterKey": process.env.MASTER_KEY,
-            "appName": "parse-server-example",
+            "appName": "User Info Collection Server",
             "production": true
         }
     ],
     users: [{
-        user: "admin",
+        user: "dime-admin",
         pass: "password"
     }],
     allowInsecureHttp: true
